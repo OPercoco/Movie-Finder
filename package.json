@@ -1,0 +1,31 @@
+{
+  "name": "moviefind",
+  "version": "1.0.0",
+  "description": "Simple movie info finder",
+  "main": "index.js",
+  "engines": {
+    "node": "4.4.3"
+  },
+ "repository": {
+    "type": "git",
+    "url": "https://github.com/OPercoco/Movie-Finder"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node index.js"
+  },
+  "author": "Owen Percoco",
+  "license": "ISC",
+  "devDependencies":{
+	"browserify":"*",
+	"flux":"*",
+	"gulp":"*",
+	"reactify":"*",
+	"vinyl-source-stream":"*",
+	"object-assign":"*"
+  },
+  "dependencies":{
+  "react":"^0.14.7",
+  "react-dom":"^0.14.7"
+  }
+}
